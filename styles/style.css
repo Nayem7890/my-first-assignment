@@ -81,8 +81,9 @@ nav ul{
 
 .page2{
     display: flex;
-    justify-content: space-between;
     padding: 48px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .page2-title{
@@ -132,3 +133,4 @@ nav ul{
     opacity: 70%;
     
 }
+
