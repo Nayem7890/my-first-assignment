@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-font-family: "Work Sans", sans-serif;
+font-family: "Work Sans",
+sans-serif;
 
-nav{
+nav {
     display: flex;
 }
 
-nav ul{
+nav ul {
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
-    
+
 }
-.web-link{
+
+.web-link {
     font-size: 28px;
     font-weight: 800;
     color: #0D1321;
@@ -23,7 +25,7 @@ nav ul li{
     text-decoration: none;
 }
 
-.btn{
+.btn {
     margin-right: 150px;
     font-size: 20px;
     color: #0D1321;
@@ -36,10 +38,11 @@ nav ul li{
     cursor: pointer;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
-.insp{
+
+.insp {
     text-align: center;
     background-size: cover;
     background-image: url("../assets/Hero-bg.png");
@@ -47,7 +50,7 @@ nav ul{
     padding: 26px 221px 45px;
 }
 
-.description{
+.description {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -57,18 +60,18 @@ nav ul{
     color: #0D1321;
 }
 
-.insp-des{
+.insp-des {
     font-size: 48px;
     font-weight: 900;
     color: #0D1321;
-      
+
 }
 
-.image-1{
+.image-1 {
     padding-bottom: 42px;
 }
 
-.btn-2nd{
+.btn-2nd {
     padding: 21px 24px;
     border-radius: 8px;
     color: rgba(255, 255, 255, 1);
@@ -79,58 +82,113 @@ nav ul{
 
 }
 
-.page2{
+.page2 {
     display: flex;
     padding: 48px;
     justify-content: space-around;
     align-items: center;
 }
 
-.page2-title{
+.page2-title {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
 }
 
-.page2-title-des{
+.page2-title-des {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
 
-.page2-border{
+.page2-border {
     margin: 74px 148px 99px;
     border-radius: 16px;
     background-color: #0D132105;
 }
-.page2-padding{
+
+.page2-padding {
     padding: 80px 97px;
     text-align: start;
 }
-.aim1{
+
+.aim1 {
     background-color: #FFFFFF;
-    
+
 }
 
 
-.aim{
+.aim {
     font-size: 24px;
     font-weight: 800;
     color: rgba(13, 19, 33, 0.7);
 
 }
 
-.aim-des{
+.aim-des {
     font-size: 16px;
     color: #0D1321;
     opacity: 70%;
 }
 
-.btn-3{
+.btn-3 {
     font-size: 20px;
     font-weight: 600;
     background-color: rgba(13, 19, 33, 0.02);
     opacity: 70%;
-    
+
 }
 
+.you-vi {
+    text-align: center;
+    align-items: center;
+    margin: 99px 148px 151px;
+}
+
+.jhankar {
+    font-size: 32px;
+    font-weight: 900;
+    color: #0D1321;
+
+}
+
+.page3-para1 {
+    font-size: ;
+}
+
+.target {
+    text-align: center;
+}
+
+.four-page {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 40px;
+    width: 250px;
+    background-color: rgba(255, 76, 30, 0.05);
+
+}
+
+.bold{
+    font-weight: bold;
+    color: rgba(13, 19, 33, 1);
+}
+
+.box2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.hibru{
+    font-size: 24pc;
+    font-weight: 900;
+    color: #0D1321;
+}
+
+.box3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
