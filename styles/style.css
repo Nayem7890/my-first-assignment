@@ -33,6 +33,7 @@ nav ul li{
     border-width: 1px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 
 nav ul{
@@ -50,13 +51,21 @@ nav ul{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+    color: #0D1321;
 }
 
 .insp-des{
     font-size: 48px;
     font-weight: 900;
     color: #0D1321;
-    padding-top: 32px;
+      
+}
+
+.image-1{
+    padding-bottom: 42px;
 }
 
 .btn-2nd{
@@ -66,6 +75,60 @@ nav ul{
     font-size: 20px;
     font-weight: 600;
     background-color: #0D1321;
+    cursor: pointer;
 
 }
 
+.page2{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+.page2-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.page2-title-des{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.page2-border{
+    margin: 74px 148px 99px;
+    border-radius: 16px;
+    background-color: #0D132105;
+}
+.page2-padding{
+    padding: 80px 97px;
+    text-align: start;
+}
+.aim1{
+    background-color: #FFFFFF;
+    
+}
+
+
+.aim{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 0.7);
+
+}
+
+.aim-des{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+.btn-3{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(13, 19, 33, 0.02);
+    opacity: 70%;
+    
+}
